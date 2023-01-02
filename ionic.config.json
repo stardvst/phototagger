@@ -1,0 +1,8 @@
+{
+  "name": "phototagger",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "bbfaac58"
+}
