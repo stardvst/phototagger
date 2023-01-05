@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "phototagger-81c14": {
+      "hosting": {
+        "app": [
+          "phototagger-81c14"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "phototagger-81c14"
+  }
+}
