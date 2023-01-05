@@ -10,3 +10,12 @@ if (environment.production) {
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.log(err));
+
+declare global {
+  interface Window {
+    CESIUM_BASE_URL: string;
+  }
+}
+
+// eslint-disable-next-line @typescript-eslint/dot-notation
+window.CESIUM_BASE_URL = '/assets/cesium/';
