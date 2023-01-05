@@ -2,10 +2,11 @@ module.exports = {
   resolve: {
     fallback: {
       fs: 'empty',
-      Buffer: 'empty',
-      http: 'empty',
-      https: 'empty',
-      zlib: 'empty',
+      Buffer: false,
+      http: false,
+      https: false,
+      zlib: false,
+      url: false,
     },
   },
   module: {
