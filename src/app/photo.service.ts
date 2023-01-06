@@ -3,7 +3,7 @@ import { Camera, CameraResultType, CameraSource } from '@capacitor/camera';
 import { Geolocation } from '@capacitor/geolocation';
 
 import { AngularFirestore } from '@angular/fire/compat/firestore';
-import { AngularFireStorage, AngularFireStorageModule } from '@angular/fire/compat/storage';
+import { AngularFireStorage } from '@angular/fire/compat/storage';
 import { Photo } from './photo';
 
 @Injectable({
